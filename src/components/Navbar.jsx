@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className='navbar-container'>
       <div className="navbar-wrapper">
-        <button onClick={()=>{setIsClicked(!isClicked)}} className='hamburger-icon-btn'  ><HamBurgerIcon /></button>
+        <button onClick={()=>{setIsClicked(!isClicked)}} className='hamburger-icon-btn'><HamBurgerIcon/></button>
         <ul className={`${isClicked?'nav-links nav-links-left show-left-nav-links':'nav-links nav-links-left'}`}>
           <li className="links">Home</li>
           <li className="links">About</li>
